@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Landing Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 2em 0;
+        }
+
+        .pricing-column {
+            text-align: center;
+            padding: 2em;
+            margin: 1em;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            max-width: 300px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .pricing-column:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #777;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 1em 0;
+        }
+
+        ul li {
+            margin: 0.5em 0;
+            color: #555;
+        }
+
+        .features {
+            margin-top: 1em;
+            border-top: 1px solid #ddd;
+            padding-top: 1em;
+        }
+        .color{
+            color: white;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Awesome Product</h1>
+        <p class="color">Unlock amazing features with our pricing plans</p>
+    </header>
+
+    <section>
+        <div class="pricing-column">
+            <h2>Basic Plan</h2>
+            <p>$10/month</p>
+            <ul>
+                <li>Basic Feature 1</li>
+                <li>Basic Feature 2</li>
+                <li>Basic Feature 3</li>
+            </ul>
+            <div class="features">
+                <h3>Additional Features:</h3>
+                <ul>
+                    <li>Email Support</li>
+                    <li>Basic Analytics</li>
+                </ul>
+            </div>
+            <button>Get Started</button>
+        </div>
+
+        <div class="pricing-column">
+            <h2>Pro Plan</h2>
+            <p>$20/month</p>
+            <ul>
+                <li>Pro Feature 1</li>
+                <li>Pro Feature 2</li>
+                <li>Pro Feature 3</li>
+                <li>Pro Feature 4</li>
+            </ul>
+            <div class="features">
+                <h3>Additional Features:</h3>
+                <ul>
+                    <li>Email and Phone Support</li>
+                    <li>Advanced Analytics</li>
+                    <li>Custom Branding</li>
+                </ul>
+            </div>
+            <button>Get Started</button>
+        </div>
+
+        <div class="pricing-column">
+            <h2>Premium Plan</h2>
+            <p>$30/month</p>
+            <ul>
+                <li>Premium Feature 1</li>
+                <li>Premium Feature 2</li>
+                <li>Premium Feature 3</li>
+                <li>Premium Feature 4</li>
+                <li>Premium Feature 5</li>
+            </ul>
+            <div class="features">
+                <h3>Additional Features:</h3>
+                <ul>
+                    <li>Premium Support (24/7)</li>
+                    <li>Advanced Analytics and Reports</li>
+                    <li>Priority Access to New Features</li>
+                </ul>
+            </div>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+</body>
+</html>
